@@ -13,6 +13,12 @@ ESPALHAMENTO DE LUZ ESTÁTICO
 
 	* For a light scattering instrument composed of many detectors placed at various angles, all the detectors need to respond the same way. Usually detectors will have slightly different quantum efficiency, different gains and are looking at different geometrical scattering volumes. In this case a NORMALIZATION OF THE DETECTORS IS ABSOLUTELY NEEDED. To normalize the detectors, a measurement of a pure solvent is made first.
 
+## Resumo da Aula (Lucaix):
+	* Interação luz-polímero, polarizabilidade da molécula;
+	* Incremento do índice de refração dn/dc;
+	* Purificação dos solventes e soluções na preparação da amostra;
+	* Coeficientes do Virial (servem p determinar forma e tamanho dos bagúio);
+	* Diagrama de Zimm, raio de Giro;
 
 ## Buracos que a gente precisa preencher:
 	* significado do 2º coeficiente virial (A_2 na wiki, B no livro)
