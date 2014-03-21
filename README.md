@@ -1,5 +1,4 @@
 # Espalhamento De Luz Estático
-===============================
 
 ## Resumo
 ### Wikipedia
@@ -32,9 +31,9 @@
 * The induced dipole moment will radiate light **in all directions**
 * Boa explicação intuitiva da equação para a Intensidade da Luz Espalhada baseando-se na polarizabilidade da partícula segundo a Teoria de Rayleigh
 * The above results are for incident light polarized in the z direction. Experiments, however, are usually done with unpolarized light. We can account for unpolarized incident light by summing the intensity of equal parts of incident light polarized in both the z direction and the y direction.
-* The light scattering intensity **depends on scattering angle** [...] The maximum scattering intensity is at θ = 0. The minimum scattering intensity is at θ = 90 [...] the scattering intensity at angle θ is equal to the scattering intensity at angle 180 − θ
+* The light scattering intensity **depends on scattering angle** [...] The maximum scattering intensity is at *θ = 0* . The minimum scattering intensity is at *θ = 90* [...] the scattering intensity at angle *θ* is equal to the scattering intensity at angle *180 − θ*
 * As a function of λ, the scattered intensity is proportional *1/λ⁴* . This strong wavelength dependence makes short wavelength light scatter more than long wavelength light. **This effect explains why the sky is blue**
-* **At sunset** you normally do look in the direction of the sun and θ is zero or near zero. Because **blue light is scattered away**, you are left with the red light and sunsets appear red.
+* **At sunset** you normally do look in the direction of the sun and *θ* is zero or near zero. Because **blue light is scattered away**, you are left with the red light and sunsets appear red.
 
 -----------------------------------------------------------------------------------------
 
@@ -45,6 +44,29 @@
 * For a dilute, polydisperse polymer solution, the total Rayleigh ratio can be written as a **sum of the Rayleigh ratios** for scattering of polymers of each possible molecular weight
 
 -----------------------------------------------------------------------------------------
+
+* As done with osmotic pressure, the possibility of **non-ideal solutions** is handled by **adding virial coefficients** and concentration terms to the ideal result
+* The only difference between the *A2* in osmotic pressure and the *A2* in light scattering is that the **light scattering _A2_** is formally a **weight-average virial coefficient**. Besides that difference, the light scattering *A2* gives similar information, notably information about the quality of the solvent.
+* This extrapolation, however, ignores any possible large particle size effects The extrapolated *Mw* will therefore be in error
+
+-----------------------------------------------------------------------------------------
+
+* If a particle is not small compared to the wavelength of light, the light can scatter from **different parts** of the particle [...] traveling **different path lengths**
+* The amount of intensity reduction or the amount of destructive interference depends on the scattering angle. At *θ* equal to zero, the path lengths will always be identical. As θ
+increases, the interference will increase reaching a maximum and *θ = 180◦*
+* scattering diagram shows the effect of large particles and now shows **asymmetry in scattering**; i.e., the back scattering intensity is much reduced from the forward scattering intensity
+* To correct for large particles, we merely need to do the light scattering experiments at zero scattering angle. [However,] At *θ = 0* most light will be transmitted light that is **not scattered**
+* Instead, we must do experiments at *θ > 0* and extrapolate to *θ = 0* . We thus do a second extrapolation, an **extrapolation to zero scattering angle**
+* *P(θ)* is the ratio between the actual scattering ( *iθ* ) and the scattering that
+would occur off small particles ( *i0θ* )
+* *P(0) = 1* [...] and *P(θ) < 1* for all other *θ* (destructive interference can only cause a reduction in intensity). 
+* The larger effect on back scattering than on forward scatter means that *P(θ < 90) > P(180 − θ)*
+* A extrapolação dita acima consiste basicamente em escever *Rθ* em função de *P(θ)* tomando como base a teoria para partículas pequenas (aí está a extrapolação para *P(θ) = 0* )
+* De alguma forma mágica ele expande ainda mais a equação e chega inesperadamente no **Raio de Giração** *Rg*
+
+-----------------------------------------------------------------------------------------
+
+* To handle both non-ideal solutions and large particle effects, we need to do two extrapolations. First, we introduce non-ideal solution effects into the large particle analysis in the previous section. Instead of using *P(θ)* to **correct** the ideal solution result, we use it to correct the **non-ideal** solution result
 
 ### Resumo da Aula (Lucaix):
 * Interação luz-polímero, polarizabilidade da molécula;
