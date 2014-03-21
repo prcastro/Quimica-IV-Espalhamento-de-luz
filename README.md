@@ -1,4 +1,5 @@
 # Espalhamento De Luz Estático
+===============================
 
 ## Resumo
 ### Wikipedia
@@ -24,6 +25,9 @@
 * *Rayleigh theory* applies to **small particles**. By small particles, we mean particles whose size is much less than λ or the wavelength of the light that is being scattered
 * A light scattering theory known as the **Rayleigh-Gans** theory was developed to extend Rayleigh theory to particles that are not optically small [...] This correction technique is important for analyzing results on **polymer solutions**
 * The other [extrapolation of the analysis] is an extrapolation to zero concentration to remove the effect of non-ideal solutions
+
+-----------------------------------------------------------------------------------------
+
 * The higher a particle’s **polarizability** the higher will be the magnitude of the **dipole moment induced** by a given electromagnetic field
 * The induced dipole moment will radiate light **in all directions**
 * Boa explicação intuitiva da equação para a Intensidade da Luz Espalhada baseando-se na polarizabilidade da partícula segundo a Teoria de Rayleigh
@@ -32,10 +36,19 @@
 * As a function of λ, the scattered intensity is proportional *1/λ⁴* . This strong wavelength dependence makes short wavelength light scatter more than long wavelength light. **This effect explains why the sky is blue**
 * **At sunset** you normally do look in the direction of the sun and θ is zero or near zero. Because **blue light is scattered away**, you are left with the red light and sunsets appear red.
 
+-----------------------------------------------------------------------------------------
+
+* The polarizability can be thought of as a **difference in the index of refraction** between the polymer and the solvent. In other words light scattering only occurs in mediums that have an inhomogeneous index of refraction
+* if the index of refraction of the solvent and of the polymer are the same then *dn0/dc* will be zero and there would be no polarizability and therefore no scattered light
+* In a given scattering experiment, *I0* and *r* will be fixed and we will measure *i0θ* . These measured quantities can be combined into one quantity called the **Rayleigh ratio** *R0θ* [...] The advantage of the Rayleigh ratio is that it is **independent** of the **incident light intensity** and the **distance** to the scattered light detector
+* K is therefore a **system constant** that is **independent** of the concentration of the solution and the molecular weight of the **polymer**
+* For a dilute, polydisperse polymer solution, the total Rayleigh ratio can be written as a **sum of the Rayleigh ratios** for scattering of polymers of each possible molecular weight
+
+-----------------------------------------------------------------------------------------
 
 ### Resumo da Aula (Lucaix):
 * Interação luz-polímero, polarizabilidade da molécula;
-* Incremento do índice de refração dn/dc;
+* Incremento do índice de refração *dn/dc* ;
 * Purificação dos solventes e soluções na preparação da amostra;
 * Coeficientes do Virial (servem p determinar forma e tamanho dos bagúio);
 * Diagrama de Zimm, raio de Giro;
