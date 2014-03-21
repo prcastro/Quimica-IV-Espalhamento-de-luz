@@ -17,9 +17,9 @@
 * Diagrama de Zimm, raio de Giro;
 
 ### Buracos que a gente precisa preencher:
-- [] Significado do 2º coeficiente virial (A_2 na wiki, B no livro)
-- [] Significado de P(theta)
-- [] De onde sai a equação para Hc/tau (Kc/Delta-R na wiki)
+- [ ] Significado do 2º coeficiente virial (A_2 na wiki, B no livro)
+- [ ] Significado de P(theta)
+- [ ] De onde sai a equação para Hc/tau (Kc/Delta-R na wiki)
 
 ### Referências
 [Wikipedia](https://en.wikipedia.org/wiki/Static_light_scattering)
