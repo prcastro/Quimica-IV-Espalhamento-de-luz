@@ -1,6 +1,6 @@
 #Espalhamento De Luz Estático
 
-## Resumo
+### Resumo
 * **Static light scattering** is a technique in physical chemistry that measures the **intensity of the scattered light** to obtain the **average molecular weight** Mw of a macromolecule like a polymer or a protein in solution. 
 * Measurement of the scattering intensity at many angles allows calculation of the [..] **radius of gyration** Rg. By measuring the scattering intensity for many samples of various concentrations, **the second virial coefficient** A2, can be calculated.
 *  For static light scattering experiments, a **high intensity monochromatic light**, usually a laser, is launched in a solution containing the macromolecules. One or many detectors are used to measure the scattering intensity at one or many angles. 
@@ -16,10 +16,11 @@
 * Coeficientes do Virial (servem p determinar forma e tamanho dos bagúio);
 * Diagrama de Zimm, raio de Giro;
 
-## Buracos que a gente precisa preencher:
-* significado do 2º coeficiente virial (A_2 na wiki, B no livro)
-* significado de P(theta)
-* de onde sai a equação para Hc/tau (Kc/Delta-R na wiki)
+### Buracos que a gente precisa preencher:
+- [] Significado do 2º coeficiente virial (A_2 na wiki, B no livro)
+- [] Significado de P(theta)
+- [] De onde sai a equação para Hc/tau (Kc/Delta-R na wiki)
 
-## Referências
+### Referências
 [Wikipedia](https://en.wikipedia.org/wiki/Static_light_scattering)
+
