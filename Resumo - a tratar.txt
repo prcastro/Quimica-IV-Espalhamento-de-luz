@@ -1,0 +1,116 @@
+OBS: nas equações, trocar L por N_A para a constante de Avogadro
+
+Introdução
+    * Espalhamento é a irradiação de uma onda eletromagnética incidente em todas as direções.
+    * Relacionado à fenômenos como visão e cor do céu.
+    * Permite a determinação de $\overline{M}_w$, $R_g$ e $A_2$ em soluções poliméricas.
+
+Espalhamento em partículas pequenas
+    * Teoria desenvolvida por Rayleigh.
+    * Aplica-se a partículas com $R_g$ pequeno em comparação ao comprimento de onda incidente.
+    (Espalhamento.png)
+
+    (Eq. 7.2 e 7.3 - trocar z por y para ficar bonitinho (x^ŷ=ẑ))
+    * Campo espalhado proporcional a $\frac{\mathrm{d}^2p}{\mathrm{d}t^2}$ e $\sin(\theta_y)$, inversamente proporcional a $c^2$ e $r$.
+    (Eq. 7.4)
+
+    * $I = E^2$
+    (Eq. 7.5)
+    * Normalmente a luz incidente não é polarizada. Utiliza-se, então,
+    (Eq. 7.8)
+    * Partículas pequenas em solução:
+    (Eq. 7.11)
+
+    (Itheta.png OU Fig. 7.5)
+    
+Polímeros -- Situação ideal
+    * Polímeros são considerados como partículas pequenas.
+    (Eq. 7.13)
+    (Eq. 7.14)
+    * Fator de Rayleigh: $R_\theta^0$.
+    (Eq. 7.16 e 7.17)
+
+    * Para soluções polidispersas altamente diuídas:
+    (Eq. 7.18 e 7.19)
+    
+Polímeros -- Situações não-ideais
+    * Duas possibilidades:
+        - Solução não-ideal;
+        - Partículas grandes;
+        
+Solução não-ideal
+    * Da termodinâmica:
+    (Eq. 7.21)
+    (Eq. 7.22)
+    * Por derivação:
+    (Eq. 7.20)
+    
+Partículas grandes
+    * Se as partículas são grandes comparadas ao comprimento de onda da luz incidente, pode ocorrer espalhamento em mais que um ponto da mesma partícula.
+    * Os diferentes raios espalhados percorrem caminhos de comprimento variável até o detector, havendo interferência.
+    * A $\theta=0$ não ocorre interferência destrutiva. A $\theta=\pi$, esta é máxima.
+    (Itheta2.png)
+
+    * Experimento não pode ser feito com $\theta=0$, pois a luz transmitida mascara a espalhada.
+    * Solução: medições a diferentes $\theta$ e extrapolação para 0.
+
+    * Define-se uma função $P(\theta)$ para descrever a redução de intensidade devida à interferência.
+    (Eq. 7.23)
+    * Evidentemente, $P(0)=1$, $P(\theta)<1$ para $\theta\neq 0$ e $P$ tem mínimo em $\theta=\pi$.
+
+    * Em uma solução ideal:
+    (Eq. 7.24)
+    * Aproximação teórica para $P$:
+    (Eq. 7.25)
+    onde $\langle s^2\rangle$ é o raio de giração quadrado médio das partículas.
+    * Aproximação é boa até cerca de 4000\AA.
+    (Eq. 7.26)
+    Note o uso da média ponderada para o raio de giração quadrado:
+    (Eq. 7.27)
+    
+Análise de Dados
+    * É preciso levar em conta tanto a não-idealidade da solução quanto o tamanho elevado de partículas poliméricas.
+    * Utilizam-se simultâneamente a expansão virial para $\frac{KC}{R_\theta^0}$ quanto a aproximação para $P(\theta)$.
+    * Em seguida, tanto $C$ quanto $\theta$ são extrapolados a 0.
+    (Eq. 7.31)
+
+    * Fazemos o gráfico de $\frac{KC}{R_\theta}$ \emph{vs} $\sin^2\theta/2$ para diversas concentrações:
+    (Gráfico 1)
+    (Eq. 7.31)
+    $$ \tan\alpha_j=\left(\frac{1}{\overline{M}_w}+2A_2c_j\right)\frac{16\pi^2}{3\lambda^2}\langle s_w^2\rangle $$
+    $$ i_j=\frac{1}{\overline{M}_w}+2A_2c_j $$
+
+    * Em seguida, plotamos os interceptos do gráfico anterior em função da concentração:
+    (Gráfico 2)
+    $$ i_j=\frac{1}{\overline{M}_w}+2A_2c_j $$
+    $$ \tan\beta=2A_2 $$
+
+    * Com $\overline{M}_w$ e $A_2$ em mãos, voltamos às equações
+    $$ \tan\alpha_j=\left(\frac{1}{\overline{M}_w}+2A_2c_j\right)\frac{16\pi^2}{3\lambda^2}\langle s_w^2\rangle $$
+    para obter o raio de giração.
+
+Gráfico de Zimm
+    * Plot de $\frac{KC}{R_\theta}$ \emph{vs} $\sin^2\theta/2+kC$, onde $k$ é uma constante escolhida convenientemente.
+    (Zimm.png)
+    (Eq. 7.36)
+    * Desenvolvido para diminuir o número de \emph{fits} lineares a serem realizados.
+    * Grade tem retas a $C$ constante e $\theta$ constante.
+    * Extrapolação dá lados inferior ($\theta=0$) e esquerdo ($C=0$) do paralelogramo.
+    * Intercepto fornece $\frac{1}{\overline{M}_w}$.
+
+    * Linhas obtidas no gráfico de Zimm na verdade não são retas:
+    (Zimm2.png)
+    (Eq. 7.36)
+
+Extensões da técnica
+    * Substituição de luz comum por $lasers$ (Vantagens: monocromaticidade, intensidade).
+    * Low-Angle Laser Light Scattering (LALLS) e Multiangle Laser Light Scattering (MALLS).
+
+    * Acoplamento de LALLS/MALLS com detectores de índice de refração diferencial (DRI) e cromatografia por exclusão de tamanho (SEC)
+        - Determinação de $\overline{M}_w$ (LALLS/MALLS)
+        - Determinação precisa da concentração (DRI)
+        - Distribuição de massas moleculares (SEC)
+    (MALLS+DRI+SEC.png)
+
+    * Espalhamento de luz dinâmico (DLS): padrão de interferências construtivas e destrutivas varia com o tempo por conta do movimento browniano das partículas.
+    * Usado para seguir mudanças no comportamento do polímero com alterações no solvente, temperatura e outros fatores. 
