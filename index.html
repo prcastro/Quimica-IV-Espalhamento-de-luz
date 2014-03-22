@@ -34,8 +34,8 @@
 
         <div class="reveal">
             <div class="slides">
-                <!-- Introdução -->
 
+                <!-- Introdução -->
                 <section>
                     <section>
                     <h2>Técnica de Espalhamento de Luz Estático</h2>
@@ -51,7 +51,7 @@
                 </section>
 
                 <section>
-                    <h3>Introdução</h3><p></p>
+                    <h3>Introdução</h3>
                     <ul>
                     <li> Espalhamento é a irradiação em todas as direções por um dipolo induzido devido a uma onda eletromagnética incidente;</li>
                     <li> Relacionado a fenômenos como visão e cor do céu; </li>
@@ -62,24 +62,51 @@
                 <!-- Espalhamento em partículas pequenas -->
                 <section>
                     <h3> Espalhamento em partículas pequenas </h3>
-                    Essa é a Teoria do Rayleigh! Mas que mininu inteligentu
+                    <ul>
+                    <li> Teoria desenvolvida por Rayleigh;</li>
+                    <li> Aplica-se a partículas com $R_g$ pequeno em comparação ao comprimento de onda incidente</li>
+                    </ul>
+                    <img src="images/Espalhamento.png" style="width: 60%;">
                 </section>
+
                 <section>
                     <h3> Espalhamento em partículas pequenas </h3>
                     O momento dipolar induzido por uma onda eletromagnética polarizada segundo o eixo y será dado por:
                     \[ p = \alpha_p E_y = \alpha_p E_0 cos \left( \frac{2 \pi c t}{\lambda} \right) \]
                 </section>
+
                 <section>
                     <h3> Espalhamento em partículas pequenas </h3>
-                    A luz irradiada pelo dipolo dependerá do ângulo $\theta_y$, inversamente da distância $r$ e da aceleração da carga pelo momento dipolar ($\frac{d^2p}{dt^2}$):
+                    O campo espalhado dependerá do ângulo $\theta_y$, inversamente da distância $r$ e da aceleração da carga pelo momento dipolar ($\frac{d^2p}{dt^2}$):
 
-                    \[ I_s = \alpha_p^2 I_{0z} \frac{16 \pi^4}{r^2 \lambda^4} sen^2(\theta_y) \]
+                    <!-- Equação 7.4 -->
+                    \[ E_s = - \alpha_p E_{0} \frac{4 \pi^2}{r \lambda^2} sen(\theta_y) cos \left( \frac{2 \pi c t}{\lambda} \right) \]
+                </section>
 
-                    Onde $I_{0z} = E_0^2$ é a intensidade da luz polarizada incidente
+                <section>
+                    <h3> Espalhamento em partículas pequenas </h3>
+                    Fazendo $I = E^2$, obtemos:
+
+                    <!-- Equação 7.5 -->
+                    \[ I_s = \alpha_p^2 I_{0y} \frac{16 \pi^4}{r^2 \lambda^4} sen^2(\theta_y) \]
+
+                    Como normalmente a luz incidente não é polarizada utiliza-se a seguinte equação:
+
+                    <!-- Equação 7.8 -->
+                    \[ I_s = \frac12 I_{sy} + \frac12 I_{sz} = \alpha_p^2 I_{0} \frac{8 \pi^4}{r^2 \lambda^4} ( sen^2(\theta_y) + sen^2(\theta_z) \]
+                </section>
+
+                <section>
+                    <h3> Espalhamento em partículas pequenas </h3>
+                    Assim, para n moles de partículas pequenas em solução, teremos:
+
+                    <!-- Equação 7.11 -->
+                    \[ \frac{I_0 n N_A}{V} \alpha_p^2 I_{0} \frac{8 \pi^4}{r^2 \lambda^4} ( 1 + cos^2(\theta) \]
+
                 </section>
                 <section>
                     <h3> Espalhamento em partículas pequenas </h3>
-                    Finalizando...
+                    <img src="images/Itheta.png" style="width: 80%;">
                 </section>
 
                 <!-- Seção 7.3 -->
