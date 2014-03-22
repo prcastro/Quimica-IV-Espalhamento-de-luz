@@ -68,13 +68,6 @@ would occur off small particles ( *i0θ* )
 
 * To handle both non-ideal solutions and large particle effects, we need to do two extrapolations. First, we introduce non-ideal solution effects into the large particle analysis in the previous section. Instead of using *P(θ)* to **correct** the ideal solution result, we use it to correct the **non-ideal** solution result
 
-### Resumo da Aula (Lucaix):
-* Interação luz-polímero, polarizabilidade da molécula;
-* Incremento do índice de refração *dn/dc* ;
-* Purificação dos solventes e soluções na preparação da amostra;
-* Coeficientes do Virial (servem p determinar forma e tamanho dos bagúio);
-* Diagrama de Zimm, raio de Giro;
-
 ## Referências
 [Wikipedia](https://en.wikipedia.org/wiki/Static_light_scattering)
 
