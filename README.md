@@ -15,6 +15,8 @@
 ### Livro Seymour/Carraher
 * This technique is based on the optical heterogeneity of polymer solutions and was developed by Nobel laureate *Peter Debye* in 1944.
 * For **small particles** the light is scattered equally, independent of the angle of the observer to the incoming light. For **larger particles** the intensity of scattered light varies with respect to the angle of the observer to the incoming light.
+* In 1871, Rayleigh showed that **induced oscillatory dipoles** were developed when light passed through gases and that the amount (**intensity**) of scattered light (τ) was inversely proportional to the **fourth power of the wavelength** of light
+
 
 ### Apostila sobre Espectometria
 * The **intensity** of the scattered light depends on the **polarizability** and the polarizability depends on the **molecular weight**
