@@ -35,69 +35,91 @@
         <div class="reveal">
             <div class="slides">
 
+                <!-- Título -->
+                <section>
+                    <h2>Técnica de Espalhamento de Luz Estático</h2>
+                    <h5>Para determinação da massa molecular</h5>
+                    <br/><br/><br/><br/><br/>
+                    Lucas Simões, Paulo Roberto e Rodrigo Orselli
+                </section>
+
                 <!-- Introdução -->
                 <section>
-                    <section>
-                    <h2>Técnica de Espalhamento de Luz Estático</h2>
-                    Lucas Simões, Paulo Roberto e Rodrigo Orselli
-
-                    <p>
-                    Para determinação da massa molecular...
-                    </p>
-                    </section>
-                    <section>
-                    do Paulo Bundão e do Orselli Boboca!
-                    </section>
+                    <h2>Introdução</h2>
                 </section>
 
                 <section>
-                    <h3>Introdução</h3>
                     <ul>
-                    <li> Espalhamento é a irradiação em todas as direções por um dipolo induzido devido a uma onda eletromagnética incidente;</li>
-                    <li> Relacionado a fenômenos como visão e cor do céu; </li>
-                    <li> Permite a determinação de $\overline{M}_w$, $R_g$ e $A_2$ em soluções poliméricas</li>
+                    <li>Espalhamento é a irradiação em todas as direções por um dipolo induzido devido a uma onda eletromagnética incidente</li>
+                    <br/>
+                    <li>Relacionado a fenômenos como visão e cor do céu</li> 
+                    <br/> 
+                    <li>Permite a determinação de $\overline{M}_w$, $R_g$ e $A_2$ em soluções poliméricas</li>
                     </ul>
                 </section>
 
                 <!-- Espalhamento em partículas pequenas -->
                 <section>
-                    <h3> Espalhamento em partículas pequenas </h3>
-                    <ul>
-                    <li> Teoria desenvolvida por Rayleigh;</li>
-                    <li> Aplica-se a partículas com $R_g$ pequeno em comparação ao comprimento de onda incidente</li>
-                    </ul>
-                    <img src="images/Espalhamento.png" style="width: 60%;">
+                    <h2>Espalhamento em partículas pequenas</h2>
+                </section>
+
+                <section> 
+                    Teoria desenvolvida por <b>Rayleigh</b>
+                    <br/><br/>
+                    <p class="fragment"> Aplica-se a partículas com $R_g$ pequeno em comparação ao comprimento de onda incidente
+                    <img src="images/Espalhamento.png" style="width: 60%;"></p>
                 </section>
 
                 <section>
-                    <h3> Espalhamento em partículas pequenas </h3>
+                    Luz é um campo eletro-magnético e, na origem, pode ser descrito como:
+                    <br/><br/>
+                    \[E_y = E_0 cos(\frac{2 \pi c t}{\lambda})\]
+                </section>
+
+                <section>
                     O momento dipolar induzido por uma onda eletromagnética polarizada segundo o eixo y será dado por:
-                    \[ p = \alpha_p E_y = \alpha_p E_0 cos \left( \frac{2 \pi c t}{\lambda} \right) \]
+                    <br/><br/>
+                    <p class="fragment">
+                        \[ p = \alpha_p E_y \]
+                        <br/>
+                        \[ = \alpha_p E_0 cos \left( \frac{2 \pi c t}{\lambda} \right) \]
+                    </p>
+                    <br/><br/>
+                    <p class="fragment">O dipolo induzido irá espalhar luz para todas as direções</p>
                 </section>
 
                 <section>
-                    <h3> Espalhamento em partículas pequenas </h3>
-                    O campo espalhado dependerá do ângulo $\theta_y$, inversamente da distância $r$ e da aceleração da carga pelo momento dipolar ($\frac{d^2p}{dt^2}$):
+                    O campo espalhado $E_s$:
+                    <br/><br/>
+                    <p><img src="images/Espalhamento.png" style="width: 60%;"></p>
+                    <ul>
+                        <li>Dependerá do ângulo $\theta_y$</li>
+                        <li class="fragment">Será inversamente proporcional à distância $r$</li>
+                        <li class="fragment">Será proporcional à aceleração da carga pelo momento dipolar ($\frac{d^2p}{dt^2}$)</li>
+                    </ul>
+                </section>
 
+                <section>
+                    O campo da luz espalhada no ângulo $\theta_y$ será:
+                    <br/><br/>
                     <!-- Equação 7.4 -->
                     \[ E_s = - \alpha_p E_{0} \frac{4 \pi^2}{r \lambda^2} sen(\theta_y) cos \left( \frac{2 \pi c t}{\lambda} \right) \]
                 </section>
 
                 <section>
-                    <h3> Espalhamento em partículas pequenas </h3>
-                    Fazendo $I = E^2$, obtemos:
-
+                    O equipamento usado normalmente mede a intesidade de luz espalhada $I$, onde $I = E^2$
+                    <br/><br/>
+                    
                     <!-- Equação 7.5 -->
                     \[ I_s = \alpha_p^2 I_{0y} \frac{16 \pi^4}{r^2 \lambda^4} sen^2(\theta_y) \]
 
                     Como normalmente a luz incidente não é polarizada utiliza-se a seguinte equação:
-
+                    
                     <!-- Equação 7.8 -->
                     \[ I_s = \frac12 I_{sy} + \frac12 I_{sz} = \alpha_p^2 I_{0} \frac{8 \pi^4}{r^2 \lambda^4} ( sen^2(\theta_y) + sen^2(\theta_z) \]
                 </section>
 
                 <section>
-                    <h3> Espalhamento em partículas pequenas </h3>
                     Assim, para n moles de partículas pequenas em solução, teremos:
 
                     <!-- Equação 7.11 -->
@@ -105,7 +127,6 @@
 
                 </section>
                 <section>
-                    <h3> Espalhamento em partículas pequenas </h3>
                     <img src="images/Itheta.png" style="width: 80%;">
                 </section>
 
@@ -150,7 +171,7 @@
                 history: true,
                 center: true,
                 touch: true,
-                autoSlide: 10000,
+                autoSlide: 0,
                 autoSlideStoppable: true,
 
 
