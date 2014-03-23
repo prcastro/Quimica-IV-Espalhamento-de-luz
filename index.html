@@ -73,18 +73,18 @@
                 <section>
                     Luz é um campo eletro-magnético e, na origem, pode ser descrito como:
                     <br/><br/>
-                    \[E_y = E_0 cos(\frac{2 \pi c t}{\lambda})\]
+                    \[E_y = E_0 cos(\frac{2 \pi \overline{c} t}{\lambda})\]
                 </section>
 
                 <section>
                     O momento dipolar induzido por uma onda eletromagnética polarizada segundo o eixo y será dado por:
                     <br/><br/>
-                    <p class="fragment">
-                        \[ p = \alpha_p E_y \]
-                        <br/>
-                        \[ = \alpha_p E_0 cos \left( \frac{2 \pi c t}{\lambda} \right) \]
-                    </p>
+
+                    \[ p = \alpha_p E_y \]
+                    <br/>
+                    \[ = \alpha_p E_0 cos \left( \frac{2 \pi \overline{c} t}{\lambda} \right) \]
                     <br/><br/>
+
                     <p class="fragment">O dipolo induzido irá espalhar luz para todas as direções</p>
                 </section>
 
@@ -103,7 +103,7 @@
                     O campo da luz espalhada no ângulo $\theta_y$ será:
                     <br/><br/>
                     <!-- Equação 7.4 -->
-                    \[ E_s = - \alpha_p E_{0} \frac{4 \pi^2}{r \lambda^2} sen(\theta_y) cos \left( \frac{2 \pi c t}{\lambda} \right) \]
+                    \[ E_s = - \alpha_p E_{0} \frac{4 \pi^2}{r \lambda^2} sen(\theta_y) cos \left( \frac{2 \pi \overline{c} t}{\lambda} \right) \]
                 </section>
 
                 <section>
@@ -124,12 +124,16 @@
                 </section>
 
                 <section>
-                    Assim, para $n$ moles de partículas pequenas em solução, teremos:
+                    Assim, para $n$ moles de partículas pequenas em uma solução diluída de volume $V$, teremos:
                     <br/><br/>
 
                     <!-- Equação 7.11 -->
                     \[ i^0_{\theta} = \frac{I_0 n N_A}{V} \alpha_p^2 I_{0} \frac{8 \pi^4}{r^2 \lambda^4} (1 + cos^2\theta) \]
+                    <br/><br/>
+
+                    <p class="fragment">Aqui, $i^0_\theta$ denota a intensidade de luz espalhada por <b>partículas pequenas</b> a um ângulo $\theta$ do eixo $x$</p>
                 </section>
+
                 <section>
                     <img src="images/Itheta.png" style="width: 80%;">
                 </section>
@@ -139,10 +143,61 @@
                     <h3>Soluções Poliméricas Ideais com Partículas Pequenas</h3>
                 </section>
 
+                <section>
+                    Já obtivemos a intesidade de luz medida $i_\theta^0$, mas ainda precisamos conectar isso com a massa molecular $M$
+                </section>
+
+                <section>
+                    Essa conexão está no índice de polarizabilidade $\alpha_p$, que depende da massa molecular:
+                    <br/><br/><br/>
+                    <p class="fragment">\[\alpha_p = \frac{n_0M}{2 \pi L} \frac{dn_0}{dc}\]
+                </section>
+
+                <section>
+                    Substituindo $\alpha_p$ na equação da intesidade, e substituindo $(\frac{n}{V})$ por $(\frac{c}{M})$, podemos definir a <b>razão de Rayleigh</b>:
+                    <br/><br/>
+
+                    \[ R_\theta^0 := \frac{r^2 i_\theta^0}{I_0} = \frac{2 \pi^2}{\lambda^4} \frac{n_0^2}{L} (\frac{dn_0}{dc})^2 M c (1 + cos^2\theta)\]
+                    <br/><br/>
+
+                    <p class="fragment">
+                        \[ \therefore R_\theta^0 = KMc\]
+                    </p>
+                </section>
+
+                <section>
+                    Para uma solução polimérica polidispersa, a razão de Rayleigh pode ser escrita como:
+                    <br/><br/>
+
+                    \[R_\theta^0 = K \sum_i M_i c_i\]
+                    <p class="fragment">
+                        <div align="left">Portanto:</div>
+                        <br/><br/>
+
+                        \[\frac{R_\theta^0}{Kc} = \frac{\sum_i M_i c_i}{\sum_i c_i} = \frac{\sum_i N_i M_i^2}{\sum_i N_i M_i} = \overline{M_W} \]
+                    </p>
+                </section>
+
+                <!-- Situações não ideias -->
+                <section>
+                    <h2>Situações não-ideais</h2>
+                    <br/><br/>
+                    <ul>
+                        <li class="fragment">Solução não-ideal</li>
+                        <li class="fragment">Partículas grandes</li>
+                    </ul>
+                </section>
+
                 <!-- Seção 7.4 -->
                 <section>
                     <h3>Soluções Poliméricas Não-Ideais</h3>
-                </section>  
+                </section>
+
+                <section>
+                    Assim como é feito com a pressão osmótica, o modo de lidar com soluções não-ideais é adicionando coeficientes viriais da seguinte forma:
+
+                    \[ \frac{Kc}{R_\theta^0} = \frac{1}{\overline{M_W}} + 2A_2c + 3A_3c^2 + ... \]
+                </section>
 
                 <!-- Seção 7.5 -->
                 <section>
