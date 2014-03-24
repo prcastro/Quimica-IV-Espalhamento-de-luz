@@ -157,7 +157,7 @@
                     Substituindo $\alpha_p$ na equação da intesidade, e substituindo $(\frac{n}{V})$ por $(\frac{c}{M})$, podemos definir a <b>razão de Rayleigh</b>:
                     <br/><br/>
 
-                    \[ R_\theta^0 := \frac{r^2 i_\theta^0}{I_0} = \frac{2 \pi^2}{\lambda^4} \frac{n_0^2}{L} (\frac{dn_0}{dC})^2 M C (1 + cos^2\theta)\]
+                    \[ R_\theta^0 := \frac{r^2 i_\theta^0}{I_0} = \frac{2 \pi^2}{\lambda^4} \frac{n_0^2}{L} \left( \frac{dn_0}{dC} \right)^2 M C (1 + cos^2\theta)\]
                     <br/><br/>
 
                     <p class="fragment">
@@ -233,7 +233,7 @@
 
                 <!-- Seção 7.5 -->
                 <section>
-                    <h3>Soluções Poliméricas Não-Ideais com Partículas Grandes</h3>
+                    <h3>Soluções Poliméricas Ideais com Partículas Grandes</h3>
                 </section>
 
                 <section>
@@ -255,14 +255,75 @@
                     \[ P(\theta) := \frac{i_\theta^0}{i_\theta} = \frac{R_\theta}{R_\theta^0} \]
                 </section>
 
+                <section>
+                    <div align="left">Note que:</div>
+                    <br/><br/><br/>
+                    <ul>
+                        <li>$P(0) = 1$</li>
+                        <li class="fragment"> $0 < P(\theta) < 1$ para outros $\theta$, já que a interferência é destrutiva</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <div align="left">Pela definição de $P(\theta)$, em uma <b>solução ideal</b>, temos:</div>
+                    <br/><br/>
+
+                    \[R_\theta = P(\theta)R_\theta^0\]
+                    <span class="fragment">
+                        <div align="left">Portanto:</div>
+                        <br/><br/>
+
+                        \[ \frac{KC}{R_\theta} = \frac{KC}{P(\theta)R_\theta^0} = \frac{1}{\overline{M_W}P(\theta)}\]
+                    </span>
+                </section>
+
+                <section>
+                    <div align="left">O resultado teórico para $\frac{1}{P(\theta)}$ é:</div>
+                    <br/><br/>
+
+                    \[\frac{1}{P(\theta)} = 1 + \frac{16 \pi^2}{3 \lambda^2} \langle R_g^2 \rangle sen^2\frac{\theta}{2}+ ...\]
+                    <br/><br/>
+
+                    <span class="fragment">
+                        <div align="left">Substituindo, temos:</div>
+                        <br/><br/>
+
+                        \[ \frac{KC}{R_\theta^0} = \frac{1}{\overline{M_W}} \left( 1 + \frac{16 \pi^2}{3 \lambda^2} \langle R_g^2 \rangle sen^2\frac{\theta}{2} \right) \]
+                    </span>
+                </section>
+
                 <!-- Seção 7.6 an on.. -->
                 <section>
-                    <h3>Análise dos Dados</h3>
-                </section>  
+                    <h3>Soluções Poliméricas Não-Ideais com Partículas Grandes</h3>
+                </section>
+
+                <section>
+                    Precisamos agora fazer as duas extrapolações. Assim, temos:
+                    <br/><br/>
+
+                    \[ \frac{KC}{R_\theta} = \frac{KC}{P(\theta)R_\theta^0} = \left( \frac{1}{\overline{M_W}} + 2A_2C \right)\frac{1}{P(\theta)}\]
+                    <br/>
+                    \[= \left( \frac{1}{\overline{M_W}} + 2A_2C \right) \left( 1 + \frac{16 \pi^2}{3 \lambda^2} \langle R_g^2 \rangle sen^2\frac{\theta}{2} \right)\]
+
+                </section>
+
+                <section>
+                    <h3>Zimm Plot</h3>
+                    <br/>
+                    <img src="images/Zimm.png" style="width: 70%;">
+                </section>
 
                 <!-- Referencias -->
                 <section>
                     <h3>Referências Bibliográficas</h3>
+                    <br/><br/>
+
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </section>
 
                 <!-- Fim \o/ -->
